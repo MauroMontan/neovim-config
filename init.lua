@@ -256,26 +256,6 @@ require("mason").setup({
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 
-local servers = {
-	"jdtls",
-	"bashls",
-	"lua_ls",
-	"gopls",
-	'yamlls',
-	"rust_analyzer",
-	"kotlin_language_server",
-	"gradle_ls",
-	"html",
-	"jsonls",
-	"dockerls",
-	"clangd",
-	"prismals",
-	"pyright",
-	"tsserver",
-}
-
-
-
 -- Add additional capabilities supported by nvim-cmp
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
