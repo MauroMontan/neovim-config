@@ -377,7 +377,7 @@ require("telescope").setup({
   defaults = {
     show_preview = false,
     file_ignore_patterns = {
-      "ios/", "build/", "node_modules/", ".git/", ".dart_tool/", ".idea/", "macos/","**.class"
+      "ios/", "build/", "node_modules/", ".git/", ".dart_tool/", ".idea/", "macos/", "**.class"
     },
   },
   extensions = {
